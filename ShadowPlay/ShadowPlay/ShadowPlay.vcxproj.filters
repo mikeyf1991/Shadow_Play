@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{a0c18b92-d501-4b81-9b51-2102c6405c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Pickup">
+      <UniqueIdentifier>{f97d92cc-1138-427f-8749-4230f3719046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shape">
+      <UniqueIdentifier>{d01d26f3-a0db-453b-accd-8542e74d274c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{9597aede-d1f6-4e02-8d76-9a6fcb139d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Texture">
+      <UniqueIdentifier>{642054e0-5102-4a7e-9ba7-38dbd4053511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{71274423-732d-45cb-8f8b-73730f3cf05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texture">
+      <UniqueIdentifier>{3793707c-8067-4b71-84db-f81c4ab761a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{a4392eb8-40d6-4e5b-9794-37f8ec5692fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shape">
+      <UniqueIdentifier>{1e54c8e9-9027-47c5-b0c1-3b2d3dcdf10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pickup">
+      <UniqueIdentifier>{1e4f6d97-348c-42c6-85f3-f834b8e959e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Text Files">
+      <UniqueIdentifier>{2c8491fe-b224-4e50-8a6b-7fa9a63618e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\lib">
+      <UniqueIdentifier>{4a56909a-8b25-4bd9-93ec-c957f7642f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{4ee8bf14-0013-4d04-8dcf-356e5fb7a69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\MainMenuButtons">
+      <UniqueIdentifier>{b41a4b49-081f-4238-9af5-948fd375a788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sound">
+      <UniqueIdentifier>{55e167c4-f490-46b3-9f79-ccb525a6bcbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sound\Guard">
+      <UniqueIdentifier>{2c3ad8ab-c899-4100-9ffc-5a31d9b7608d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sound\Music">
+      <UniqueIdentifier>{4e6d2c98-7ab9-4f77-b862-891334b01b6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputKey.hpp">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePickup.hpp">
+      <Filter>Header Files\Pickup</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPickup.hpp">
+      <Filter>Header Files\Pickup</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseShape.hpp">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard.hpp">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.hpp">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.hpp">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState2.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScoresState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionsState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelExit.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Animate.hpp">
+      <Filter>Header Files\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadTexture.hpp">
+      <Filter>Header Files\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.hpp">
+      <Filter>Header Files\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Resource Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.hpp">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyPickup.cpp">
+      <Filter>Source Files\Pickup</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState2.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="HighScoresState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionsState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelExit.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Animate.cpp">
+      <Filter>Source Files\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadTexture.cpp">
+      <Filter>Source Files\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Source Files\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Resource Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Source Files\Shape</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="LevelInformation.xml">
+      <Filter>Resource Files\Text Files</Filter>
+    </Xml>
+    <Xml Include="Save_Info.xml">
+      <Filter>Resource Files\Text Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Exit.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="floor.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="floor2.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="GO_background.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="HS_background.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Instructions_1.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Instructions_2.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Instructions_3.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Level1_BackGroundComplete2.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="MM_background.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="shadow.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="sonic-1.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="sonic-2.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="sonic-3.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="sonic-3.png.jpg.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Temp_Level.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Walksequence_spritesheet.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="QuitYes.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="QuitNOT.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="New_GameYES.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="New_GameNOT.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="Load_GameYes.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="Load_GameNOT.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="Load_GameLOCKED.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="InstructNOT.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="InstructYES.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="HighScoresYES.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="HighScoresNOT.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="Lever.png">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="Lever2.PNG">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bottle_x.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="game_over.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="good.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="lets_rock.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="player_spotted.wav">
+      <Filter>Resource Files\Sound\Guard</Filter>
+    </Media>
+    <Media Include="nolf2_calculating_route.wav">
+      <Filter>Resource Files\Sound\Guard</Filter>
+    </Media>
+    <Media Include="nolf2_distress_not.wav">
+      <Filter>Resource Files\Sound\Guard</Filter>
+    </Media>
+    <Media Include="player_escaped.wav">
+      <Filter>Resource Files\Sound\Guard</Filter>
+    </Media>
+    <Media Include="main_game_music.mp3">
+      <Filter>Resource Files\Sound\Music</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="vahikai.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

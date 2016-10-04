@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C4A35644-613D-41DC-A73B-907BA660532A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ShadowPlay</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\Wed\ShadowPlay\VC\include;J:\E-HD\UNI\3rd Year\Game-Design&amp;Plan\ShadowPlayGame\ShadowPlay\VC\include;H:\E-HD\UNI\3rd Year\Game-Design&amp;Plan\ShadowPlayGame\ShadowPlay\VC\include;K:\E-HD\UNI\3rd Year\Game-Design&amp;Plan\ShadowPlayGame\ShadowPlay\VC\include;J:\E-HD\UNI\3rd Year\Game-Design&amp;Plan\ShadowPlayNew\ShadowPlay\VC\include;E:\shadowplaynew\ShadowPlay\VC\include;J:\E-HD\UNI\3rd Year\Game-Design&amp;Plan\ShadowPlay\ShadowPlay\VC\include;C:\Users\User\Desktop\ShadowPlay\ShadowPlay\VC\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\User\Desktop\Wed\ShadowPlay\VC\lib;H:\E-HD\UNI\3rd Year\Game-Design&amp;Plan\ShadowPlayGame\ShadowPlay\VC\lib;J:\E-HD\UNI\3rd Year\Game-Design&amp;Plan\ShadowPlayGame\ShadowPlay\VC\lib;K:\E-HD\UNI\3rd Year\Game-Design&amp;Plan\ShadowPlayGame\ShadowPlay\VC\lib;J:\E-HD\UNI\3rd Year\Game-Design&amp;Plan\ShadowPlayNew\ShadowPlay\VC\lib;E:\shadowplaynew\ShadowPlay\VC\lib;J:\E-HD\UNI\3rd Year\Game-Design&amp;Plan\ShadowPlay\ShadowPlay\VC\lib;C:\Users\User\Desktop\ShadowPlay\ShadowPlay\VC\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>bass.lib;sfml-system-d.lib;sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-main-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractState.hpp" />
+    <ClInclude Include="Animate.hpp" />
+    <ClInclude Include="BasePickup.hpp" />
+    <ClInclude Include="BaseShape.hpp" />
+    <ClInclude Include="Common.hpp" />
+    <ClInclude Include="GameOverState.hpp" />
+    <ClInclude Include="GameState.hpp" />
+    <ClInclude Include="GameState2.hpp" />
+    <ClInclude Include="Guard.hpp" />
+    <ClInclude Include="Helpers.hpp" />
+    <ClInclude Include="HighScoresState.hpp" />
+    <ClInclude Include="InputKey.hpp" />
+    <ClInclude Include="InputManager.hpp" />
+    <ClInclude Include="InstructionsState.hpp" />
+    <ClInclude Include="KeyPickup.hpp" />
+    <ClInclude Include="LevelExit.hpp" />
+    <ClInclude Include="Light.hpp" />
+    <ClInclude Include="LoadTexture.hpp" />
+    <ClInclude Include="MainMenuState.hpp" />
+    <ClInclude Include="Player.hpp" />
+    <ClInclude Include="Shadow.hpp" />
+    <ClInclude Include="SpriteSheet.hpp" />
+    <ClInclude Include="StateManager.hpp" />
+    <ClInclude Include="Switch.hpp" />
+    <ClInclude Include="tinyxml2.h" />
+    <ClInclude Include="UI.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animate.cpp" />
+    <ClCompile Include="GameOverState.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="GameState2.cpp" />
+    <ClCompile Include="Guard.cpp" />
+    <ClCompile Include="HighScoresState.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="InstructionsState.cpp" />
+    <ClCompile Include="KeyPickup.cpp" />
+    <ClCompile Include="LevelExit.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LoadTexture.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenuState.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Shadow.cpp" />
+    <ClCompile Include="Switch.cpp" />
+    <ClCompile Include="SpriteSheet.cpp" />
+    <ClCompile Include="StateManager.cpp" />
+    <ClCompile Include="tinyxml2.cpp" />
+    <ClCompile Include="UI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="LevelInformation.xml" />
+    <Xml Include="Save_Info.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Exit.png" />
+    <Image Include="floor.png" />
+    <Image Include="floor2.png" />
+    <Image Include="GO_background.png" />
+    <Image Include="HighScoresNOT.png" />
+    <Image Include="HighScoresYES.png" />
+    <Image Include="HS_background.png" />
+    <Image Include="Instructions_1.png" />
+    <Image Include="Instructions_2.png" />
+    <Image Include="Instructions_3.png" />
+    <Image Include="InstructNOT.png" />
+    <Image Include="InstructYES.png" />
+    <Image Include="Level1_BackGroundComplete2.png" />
+    <Image Include="Lever.png" />
+    <Image Include="Lever2.PNG" />
+    <Image Include="Load_GameLOCKED.png" />
+    <Image Include="Load_GameNOT.png" />
+    <Image Include="Load_GameYes.png" />
+    <Image Include="MM_background.png" />
+    <Image Include="New_GameNOT.png" />
+    <Image Include="New_GameYES.png" />
+    <Image Include="QuitNOT.png" />
+    <Image Include="QuitYes.png" />
+    <Image Include="shadow.png" />
+    <Image Include="sonic-1.png" />
+    <Image Include="sonic-2.png" />
+    <Image Include="sonic-3.png" />
+    <Image Include="sonic-3.png.jpg.png" />
+    <Image Include="Temp_Level.png" />
+    <Image Include="Walksequence_spritesheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bottle_x.wav" />
+    <Media Include="game_over.wav" />
+    <Media Include="good.wav" />
+    <Media Include="lets_rock.wav" />
+    <Media Include="main_game_music.mp3" />
+    <Media Include="nolf2_calculating_route.wav" />
+    <Media Include="nolf2_distress_not.wav" />
+    <Media Include="player_escaped.wav" />
+    <Media Include="player_spotted.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="vahikai.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

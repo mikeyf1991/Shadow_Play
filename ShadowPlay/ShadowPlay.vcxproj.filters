@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{a0c18b92-d501-4b81-9b51-2102c6405c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shape">
+      <UniqueIdentifier>{d01d26f3-a0db-453b-accd-8542e74d274c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{9597aede-d1f6-4e02-8d76-9a6fcb139d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{71274423-732d-45cb-8f8b-73730f3cf05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{a4392eb8-40d6-4e5b-9794-37f8ec5692fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shape">
+      <UniqueIdentifier>{1e54c8e9-9027-47c5-b0c1-3b2d3dcdf10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Text Files">
+      <UniqueIdentifier>{2c8491fe-b224-4e50-8a6b-7fa9a63618e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\lib">
+      <UniqueIdentifier>{4a56909a-8b25-4bd9-93ec-c957f7642f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{4ee8bf14-0013-4d04-8dcf-356e5fb7a69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\MainMenuButtons">
+      <UniqueIdentifier>{b41a4b49-081f-4238-9af5-948fd375a788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sound">
+      <UniqueIdentifier>{55e167c4-f490-46b3-9f79-ccb525a6bcbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sound\Guard">
+      <UniqueIdentifier>{2c3ad8ab-c899-4100-9ffc-5a31d9b7608d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sound\Music">
+      <UniqueIdentifier>{4e6d2c98-7ab9-4f77-b862-891334b01b6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\Guard">
+      <UniqueIdentifier>{b3b60941-1bfd-40fc-ad0d-840a1d374f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\Misc">
+      <UniqueIdentifier>{13ef39c9-6869-449f-90a5-b4fe94f4c4c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\Player">
+      <UniqueIdentifier>{5edd8a1c-3c2f-499f-9c04-f53030ceda9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\BackGrounds">
+      <UniqueIdentifier>{caef16e6-bcb3-45b7-8dea-2069c86e9081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Videos">
+      <UniqueIdentifier>{eaf7cacc-2c22-45c6-b686-6d4cca04d51e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Images\BackGrounds\Instructions">
+      <UniqueIdentifier>{23ee9fc2-5e34-4219-af89-f987201b2d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shape\Pickup">
+      <UniqueIdentifier>{f97d92cc-1138-427f-8749-4230f3719046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shape\Player">
+      <UniqueIdentifier>{c415cd2b-6f9d-4150-9563-fd764cd71cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shape\Guard">
+      <UniqueIdentifier>{66d64394-7553-48c5-acb3-a00f4d6dc4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shape\Misc">
+      <UniqueIdentifier>{94d04957-bd88-443a-bb87-df6448c78356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shape\Light">
+      <UniqueIdentifier>{05002365-24ad-467a-a779-f801fe0d2f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shape\Pickup">
+      <UniqueIdentifier>{1e4f6d97-348c-42c6-85f3-f834b8e959e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shape\Guard">
+      <UniqueIdentifier>{c282d901-7fe2-4ea9-8c39-5ef912a9a997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shape\Misc">
+      <UniqueIdentifier>{3e70debd-bb14-436c-b7df-52e4d7022c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shape\Light">
+      <UniqueIdentifier>{26663708-66e2-43d6-8e9b-47822c8d3dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shape\Player">
+      <UniqueIdentifier>{a7ea3d22-1644-42a7-b09b-6ea4db436c67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputKey.hpp">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseShape.hpp">
+      <Filter>Header Files\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState2.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="HighScoresState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionsState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Resource Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState3.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPickup.hpp">
+      <Filter>Header Files\Shape\Pickup</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Header Files\Shape\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.hpp">
+      <Filter>Header Files\Shape\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard.hpp">
+      <Filter>Header Files\Shape\Guard</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.hpp">
+      <Filter>Header Files\Shape\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelExit.hpp">
+      <Filter>Header Files\Shape\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.hpp">
+      <Filter>Header Files\Shape\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.hpp">
+      <Filter>Header Files\Shape\Light</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyPickup.cpp">
+      <Filter>Source Files\Shape\Pickup</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState2.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="HighScoresState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionsState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Resource Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState3.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard.cpp">
+      <Filter>Source Files\Shape\Guard</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelExit.cpp">
+      <Filter>Source Files\Shape\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Source Files\Shape\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Source Files\Shape\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Shape\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Shape\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Source Files\Shape\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="LevelInformation.xml">
+      <Filter>Resource Files\Text Files</Filter>
+    </Xml>
+    <Xml Include="Save_Info.xml">
+      <Filter>Resource Files\Text Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="QuitYes.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="QuitNOT.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="New_GameYES.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="New_GameNOT.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="Load_GameYes.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="Load_GameNOT.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="Load_GameLOCKED.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="InstructNOT.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="InstructYES.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="Guard\Guard Caught Left.png">
+      <Filter>Resource Files\Images\Guard</Filter>
+    </Image>
+    <Image Include="Guard\Guard Caught Right.png">
+      <Filter>Resource Files\Images\Guard</Filter>
+    </Image>
+    <Image Include="Guard\Guard Spotted Left.png">
+      <Filter>Resource Files\Images\Guard</Filter>
+    </Image>
+    <Image Include="Guard\Guard Spotted Right.png">
+      <Filter>Resource Files\Images\Guard</Filter>
+    </Image>
+    <Image Include="Misc\SwitchDOWN.png">
+      <Filter>Resource Files\Images\Misc</Filter>
+    </Image>
+    <Image Include="Misc\SwitchUP.png">
+      <Filter>Resource Files\Images\Misc</Filter>
+    </Image>
+    <Image Include="Misc\Light2.png">
+      <Filter>Resource Files\Images\Misc</Filter>
+    </Image>
+    <Image Include="Misc\End Level Door2.png">
+      <Filter>Resource Files\Images\Misc</Filter>
+    </Image>
+    <Image Include="Misc\Destroyable_Wall.png">
+      <Filter>Resource Files\Images\Misc</Filter>
+    </Image>
+    <Image Include="Misc\UnDestroyable_Wall.png">
+      <Filter>Resource Files\Images\Misc</Filter>
+    </Image>
+    <Image Include="BackGrounds\floor2.png">
+      <Filter>Resource Files\Images\BackGrounds</Filter>
+    </Image>
+    <Image Include="BackGrounds\GO_background.png">
+      <Filter>Resource Files\Images\BackGrounds</Filter>
+    </Image>
+    <Image Include="BackGrounds\HS_background.png">
+      <Filter>Resource Files\Images\BackGrounds</Filter>
+    </Image>
+    <Image Include="BackGrounds\MM_background.png">
+      <Filter>Resource Files\Images\BackGrounds</Filter>
+    </Image>
+    <Image Include="Guard\Guard Walk SpriteSheet-01.png">
+      <Filter>Resource Files\Images\Guard</Filter>
+    </Image>
+    <Image Include="Misc\Security Pass-01.png">
+      <Filter>Resource Files\Images\Misc</Filter>
+    </Image>
+    <Image Include="Player\Player Walk SpriteSheet-05.png">
+      <Filter>Resource Files\Images\Player</Filter>
+    </Image>
+    <Image Include="BackGrounds\Main Menu-01.png">
+      <Filter>Resource Files\Images\BackGrounds</Filter>
+    </Image>
+    <Image Include="Misc\Light2-01.png">
+      <Filter>Resource Files\Images\Misc</Filter>
+    </Image>
+    <Image Include="Misc\Light2-00.png">
+      <Filter>Resource Files\Images\Misc</Filter>
+    </Image>
+    <Image Include="M_MButtons\CreditsNOT.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="M_MButtons\CreditsYES.png">
+      <Filter>Resource Files\Images\MainMenuButtons</Filter>
+    </Image>
+    <Image Include="Player\Cast Shadow.png">
+      <Filter>Resource Files\Images\Player</Filter>
+    </Image>
+    <Image Include="Misc\LightiR-00.png">
+      <Filter>Resource Files\Images\Misc</Filter>
+    </Image>
+    <Image Include="Misc\LightNiR-00.png">
+      <Filter>Resource Files\Images\Misc</Filter>
+    </Image>
+    <Image Include="Guard\Guard Caught.png">
+      <Filter>Resource Files\Images\Guard</Filter>
+    </Image>
+    <Image Include="Guard\Guard Spotted.png">
+      <Filter>Resource Files\Images\Guard</Filter>
+    </Image>
+    <Image Include="BackGrounds\Credits Screen-01.png">
+      <Filter>Resource Files\Images\BackGrounds</Filter>
+    </Image>
+    <Image Include="BackGrounds\LoadScreen3.png">
+      <Filter>Resource Files\Images\BackGrounds</Filter>
+    </Image>
+    <Image Include="BackGrounds\Instructions_2.1.png">
+      <Filter>Resource Files\Images\BackGrounds\Instructions</Filter>
+    </Image>
+    <Image Include="BackGrounds\Instructions_2.2.png">
+      <Filter>Resource Files\Images\BackGrounds\Instructions</Filter>
+    </Image>
+    <Image Include="BackGrounds\Instructions_2.3.png">
+      <Filter>Resource Files\Images\BackGrounds\Instructions</Filter>
+    </Image>
+    <Image Include="BackGrounds\Instructions_4.png">
+      <Filter>Resource Files\Images\BackGrounds\Instructions</Filter>
+    </Image>
+    <Image Include="BackGrounds\Instructions_5.png">
+      <Filter>Resource Files\Images\BackGrounds\Instructions</Filter>
+    </Image>
+    <Image Include="BackGrounds\Instructions_6.png">
+      <Filter>Resource Files\Images\BackGrounds\Instructions</Filter>
+    </Image>
+    <Image Include="BackGrounds\Instructions_1.png">
+      <Filter>Resource Files\Images\BackGrounds\Instructions</Filter>
+    </Image>
+    <Image Include="BackGrounds\Instructions_2.png">
+      <Filter>Resource Files\Images\BackGrounds\Instructions</Filter>
+    </Image>
+    <Image Include="BackGrounds\Instructions_3.png">
+      <Filter>Resource Files\Images\BackGrounds\Instructions</Filter>
+    </Image>
+    <Image Include="Player\Player Shadow.png">
+      <Filter>Resource Files\Images\Player</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bottle_x.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="game_over.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="good.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="lets_rock.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="player_spotted.wav">
+      <Filter>Resource Files\Sound\Guard</Filter>
+    </Media>
+    <Media Include="nolf2_calculating_route.wav">
+      <Filter>Resource Files\Sound\Guard</Filter>
+    </Media>
+    <Media Include="nolf2_distress_not.wav">
+      <Filter>Resource Files\Sound\Guard</Filter>
+    </Media>
+    <Media Include="player_escaped.wav">
+      <Filter>Resource Files\Sound\Guard</Filter>
+    </Media>
+    <Media Include="main_game_music.mp3">
+      <Filter>Resource Files\Sound\Music</Filter>
+    </Media>
+    <Media Include="Sounds\keepitdown.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="Sounds\nextlevel.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="Sounds\keepgoing.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="Sounds\gottagetkey.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="Sounds\levelpull.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="Sounds\switchsound.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="Sounds\shufflesound.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="Sounds\keypickup.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+    <Media Include="Sounds\ButtonHighlight.wav">
+      <Filter>Resource Files\Sound</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="vahikai.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Videos\ShadowPlay-DistractingGuards.avi">
+      <Filter>Resource Files\Videos</Filter>
+    </None>
+    <None Include="Videos\ShadowPlay-LightsInRange.avi">
+      <Filter>Resource Files\Videos</Filter>
+    </None>
+    <None Include="Videos\ShadowPlay-MovementInstructions.avi">
+      <Filter>Resource Files\Videos</Filter>
+    </None>
+    <None Include="Videos\ShadowPlay-ShadowControls.avi">
+      <Filter>Resource Files\Videos</Filter>
+    </None>
+  </ItemGroup>
+</Project>
